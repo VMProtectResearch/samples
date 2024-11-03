@@ -1,0 +1,495 @@
+ | | Entry point VIP:       0x52
+ | | Stack pointer:         -0xb2
+ | | Already visited?:      N
+ | | ------------------------
+ | | 0000: [ PSEUDO ]     -0x8     strq     $sp          -0x8         0x7ea5280
+ | | 0001: [ PSEUDO ]     -0x10    strq     $sp          -0x10        0x6b912ce0
+ | | 0002: [ PSEUDO ]     -0x18    strq     $sp          -0x18        rdi
+ | | 0003: [ PSEUDO ]     -0x20    strq     $sp          -0x20        r9
+ | | 0004: [ PSEUDO ]     -0x28    strq     $sp          -0x28        r11
+ | | 0005: [ PSEUDO ]     -0x30    strq     $sp          -0x30        rdx
+ | | 0006: [ PSEUDO ]     -0x38    strq     $sp          -0x38        rcx
+ | | 0007: [ PSEUDO ]     -0x40    strq     $sp          -0x40        rsi
+ | | 0008: [ PSEUDO ]     -0x48    strq     $sp          -0x48        r8
+ | | 0009: [ PSEUDO ]     -0x50    strq     $sp          -0x50        rax
+ | | 0010: [ PSEUDO ]     -0x58    strq     $sp          -0x58        r15
+ | | 0011: [ PSEUDO ]     -0x60    strq     $sp          -0x60        rbp
+ | | 0012: [ PSEUDO ]     -0x68    strq     $sp          -0x68        r14
+ | | 0013: [ PSEUDO ]     -0x70    strq     $sp          -0x70        r12
+ | | 0014: [ PSEUDO ]     -0x78    strq     $sp          -0x78        r10
+ | | 0015: [ PSEUDO ]     -0x80    strq     $sp          -0x80        rbx
+ | | 0016: [ PSEUDO ]     -0x88    strq     $sp          -0x88        rbp
+ | | 0017: [ PSEUDO ]     -0x90    strq     $sp          -0x90        r13
+ | | 0018: [ PSEUDO ]     -0x98    strq     $sp          -0x98        $flags
+ | | 0019: [ PSEUDO ]     -0xa0    strq     $sp          -0xa0        0x0
+ | | 0020: [ PSEUDO ]     -0xa8    strq     $sp          -0xa8        0x0
+ | | 0021: [ PSEUDO ]     -0xa0    lddq     vr19         $sp          -0xa8
+ | | 0022: [ PSEUDO ]     -0xa8    strq     $sp          -0xa8        0x4076868d
+ | | 0023: [ PSEUDO ]     -0xa0    lddq     t1           $sp          -0xa8
+ | | 0024: [ PSEUDO ]     -0x98    lddq     t0           $sp          -0xa0
+ | | 0025: [ PSEUDO ]     -0x98    addq     t0           t1
+ | | 0026: [ PSEUDO ]     -0xa0    strq     $sp          -0xa0        t0
+ | | 0027: [ PSEUDO ]     -0xa8    strq     $sp          -0xa8        $flags
+ | | 0028: [ PSEUDO ]     -0xa0    lddq     vr23         $sp          -0xa8
+ | | 0029: [ PSEUDO ]     -0x98    lddq     vr22         $sp          -0xa0
+ | | 0030: [ PSEUDO ]     -0x90    lddq     vr15         $sp          -0x98
+ | | 0031: [ PSEUDO ]     -0x88    lddq     vr2          $sp          -0x90
+ | | 0032: [ PSEUDO ]     -0x80    lddq     vr5          $sp          -0x88
+ | | 0033: [ PSEUDO ]     -0x78    lddq     vr1          $sp          -0x80
+ | | 0034: [ PSEUDO ]     -0x70    lddq     vr21         $sp          -0x78
+ | | 0035: [ PSEUDO ]     -0x68    lddq     vr20         $sp          -0x70
+ | | 0036: [ PSEUDO ]     -0x60    lddq     vr7          $sp          -0x68
+ | | 0037: [ PSEUDO ]     -0x58    lddq     vr0          $sp          -0x60
+ | | 0038: [ PSEUDO ]     -0x50    lddq     vr6          $sp          -0x58
+ | | 0039: [ PSEUDO ]     -0x48    lddq     vr12         $sp          -0x50
+ | | 0040: [ PSEUDO ]     -0x40    lddq     vr13         $sp          -0x48
+ | | 0041: [ PSEUDO ]     -0x38    lddq     vr18         $sp          -0x40
+ | | 0042: [ PSEUDO ]     -0x30    lddq     vr3          $sp          -0x38
+ | | 0043: [ PSEUDO ]     -0x28    lddq     vr23         $sp          -0x30
+ | | 0044: [ PSEUDO ]     -0x20    lddq     vr10         $sp          -0x28
+ | | 0045: [ PSEUDO ]     -0x18    lddq     vr16         $sp          -0x20
+ | | 0046: [ PSEUDO ]     -0x10    lddq     vr17         $sp          -0x18
+ | | 0047: [ PSEUDO ]     -0x8     lddq     vr9          $sp          -0x10
+ | | 0048: [ PSEUDO ]     +0x0     lddq     vr4          $sp          -0x8
+ | | 0049: [ PSEUDO ]     +0x0     movq     t2           vr15
+ | | 0050: [ PSEUDO ]     -0x8     strq     $sp          -0x8         t2
+ | | 0051: [ PSEUDO ]     -0x10    strq     $sp          -0x10        0x52f099f5d59e5276
+ | | 0052: [ PSEUDO ]     -0x18    strq     $sp          -0x18        -0x14000565c
+ | | 0053: [ PSEUDO ]     -0x20    strq     $sp          -0x20        0x71bb01fa
+ | | 0054: [ PSEUDO ]     -0x20    movq     t3           $sp
+ | | 0055: [ PSEUDO ]     -0x28    strq     $sp          -0x28        t3
+ | | 0056: [ PSEUDO ]     -0x20    lddq     t5           $sp          -0x28
+ | | 0057: [ PSEUDO ]     -0x20    lddw     t4:16        t5           0x0
+ | | 0058: [ PSEUDO ]     -0x22    strw     $sp          -0x22        t4:16
+ | | 0059: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        -0x1549dfe5c
+ | | 0060: [ PSEUDO ]     -0x2a    movq     t6           $sp
+ | | 0061: [ PSEUDO ]     -0x32    strq     $sp          -0x32        t6
+ | | 0062: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        0xa
+ | | 0063: [ PSEUDO ]     -0x42    strq     $sp          -0x42        -0x2323e9693ce727
+ | | 0064: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        0xe9246899
+ | | 0065: [ PSEUDO ]     -0x52    strq     $sp          -0x52        0x56dbeb0a
+ | | 0066: [ PSEUDO ]     -0x4a    lddq     t8           $sp          -0x52
+ | | 0067: [ PSEUDO ]     -0x42    lddq     t7           $sp          -0x4a
+ | | 0068: [ PSEUDO ]     -0x42    addq     t7           t8
+ | | 0069: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        t7
+ | | 0070: [ PSEUDO ]     -0x52    strq     $sp          -0x52        $flags
+ | | 0071: [ PSEUDO ]     -0x4a    lddq     vr11         $sp          -0x52
+ | | 0072: [ PSEUDO ]     -0x42    lddq     t10          $sp          -0x4a
+ | | 0073: [ PSEUDO ]     -0x42    lddq     t9           t10          0x0
+ | | 0074: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        t9
+ | | 0075: [ PSEUDO ]     -0x42    lddq     t12          $sp          -0x4a
+ | | 0076: [ PSEUDO ]     -0x3a    lddq     t11          $sp          -0x42
+ | | 0077: [ PSEUDO ]     -0x3a    addq     t11          t12
+ | | 0078: [ PSEUDO ]     -0x42    strq     $sp          -0x42        t11
+ | | 0079: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        $flags
+ | | 0080: [ PSEUDO ]     -0x42    lddq     vr9          $sp          -0x4a
+ | | 0081: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        0x677a62de
+ | | 0082: [ PSEUDO ]     -0x42    lddq     t14          $sp          -0x4a
+ | | 0083: [ PSEUDO ]     -0x3a    lddq     t13          $sp          -0x42
+ | | 0084: [ PSEUDO ]     -0x3a    addq     t13          t14
+ | | 0085: [ PSEUDO ]     -0x42    strq     $sp          -0x42        t13
+ | | 0086: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        $flags
+ | | 0087: [ PSEUDO ]     -0x42    lddq     vr11         $sp          -0x4a
+ | | 0088: [ PSEUDO ]     -0x42    movq     t15          vr15
+ | | 0089: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        t15
+ | | 0090: [ PSEUDO ]     -0x4a    movq     t16          vr15
+ | | 0091: [ PSEUDO ]     -0x52    strq     $sp          -0x52        t16
+ | | 0092: [ PSEUDO ]     -0x4a    lddq     t18          $sp          -0x52
+ | | 0093: [ PSEUDO ]     -0x42    lddq     t17          $sp          -0x4a
+ | | 0094: [ PSEUDO ]     -0x42    notq     t17
+ | | 0095: [ PSEUDO ]     -0x42    notq     t18
+ | | 0096: [ PSEUDO ]     -0x42    andq     t18          t17
+ | | 0097: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        t18
+ | | 0098: [ PSEUDO ]     -0x52    strq     $sp          -0x52        $flags
+ | | 0099: [ PSEUDO ]     -0x4a    lddq     vr14         $sp          -0x52
+ | | 0100: [ PSEUDO ]     -0x42    lddq     t20          $sp          -0x4a
+ | | 0101: [ PSEUDO ]     -0x3a    lddq     t19          $sp          -0x42
+ | | 0102: [ PSEUDO ]     -0x3a    notq     t19
+ | | 0103: [ PSEUDO ]     -0x3a    notq     t20
+ | | 0104: [ PSEUDO ]     -0x3a    andq     t20          t19
+ | | 0105: [ PSEUDO ]     -0x42    strq     $sp          -0x42        t20
+ | | 0106: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        $flags
+ | | 0107: [ PSEUDO ]     -0x42    lddq     vr11         $sp          -0x4a
+ | | 0108: [ PSEUDO ]     -0x3a    lddq     vr14         $sp          -0x42
+ | | 0109: [ PSEUDO ]     -0x32    lddq     t22          $sp          -0x3a
+ | | 0110: [ PSEUDO ]     -0x2a    lddq     t21          $sp          -0x32
+ | | 0111: [ PSEUDO ]     -0x2a    addq     t21          t22
+ | | 0112: [ PSEUDO ]     -0x32    strq     $sp          -0x32        t21
+ | | 0113: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        $flags
+ | | 0114: [ PSEUDO ]     -0x32    lddq     vr4          $sp          -0x3a
+ | | 0115: [ PSEUDO ]     -0x2a    lddq     t24          $sp          -0x32
+ | | 0116: [ PSEUDO ]     -0x22    lddq     t23          $sp          -0x2a
+ | | 0117: [ PSEUDO ]     -0x22    strq     t24          0x0          t23
+ | | 0118: [ PSEUDO ]     -0x20    lddw     vr15:16      $sp          -0x22
+ | | 0119: [ PSEUDO ]     -0x18    lddq     t26          $sp          -0x20
+ | | 0120: [ PSEUDO ]     -0x10    lddq     t25          $sp          -0x18
+ | | 0121: [ PSEUDO ]     -0x10    notq     t25
+ | | 0122: [ PSEUDO ]     -0x10    notq     t26
+ | | 0123: [ PSEUDO ]     -0x10    andq     t26          t25
+ | | 0124: [ PSEUDO ]     -0x18    strq     $sp          -0x18        t26
+ | | 0125: [ PSEUDO ]     -0x20    strq     $sp          -0x20        $flags
+ | | 0126: [ PSEUDO ]     -0x18    lddq     vr14         $sp          -0x20
+ | | 0127: [ PSEUDO ]     -0x10    lddq     t28          $sp          -0x18
+ | | 0128: [ PSEUDO ]     -0x10    lddq     t27          t28          0x0
+ | | 0129: [ PSEUDO ]     -0x18    strq     $sp          -0x18        t27
+ | | 0130: [ PSEUDO ]     -0x10    lddq     t30          $sp          -0x18
+ | | 0131: [ PSEUDO ]     -0x8     lddq     t29          $sp          -0x10
+ | | 0132: [ PSEUDO ]     -0x8     addq     t29          t30
+ | | 0133: [ PSEUDO ]     -0x10    strq     $sp          -0x10        t29
+ | | 0134: [ PSEUDO ]     -0x18    strq     $sp          -0x18        $flags
+ | | 0135: [ PSEUDO ]     -0x10    lddq     vr15         $sp          -0x18
+ | | 0136: [ PSEUDO ]     -0x18    strq     $sp          -0x18        -0x2538492
+ | | 0137: [ PSEUDO ]     -0x1a    strw     $sp          -0x1a        0xefe0
+ | | 0138: [ PSEUDO ]     -0x18    lddw     vr15:16      $sp          -0x1a
+ | | 0139: [ PSEUDO ]     -0x18    movq     t31          $sp
+ | | 0140: [ PSEUDO ]     -0x20    strq     $sp          -0x20        t31
+ | | 0141: [ PSEUDO ]     -0x18    lddq     t33          $sp          -0x20
+ | | 0142: [ PSEUDO ]     -0x18    lddd     t32:32       t33          0x0
+ | | 0143: [ PSEUDO ]     -0x1c    strd     $sp          -0x1c        t32:32
+ | | 0144: [ PSEUDO ]     -0x18    lddd     vr14:32      $sp          -0x1c
+ | | 0145: [ PSEUDO ]     -0x10    lddq     t35          $sp          -0x18
+ | | 0146: [ PSEUDO ]     -0x8     lddq     t34          $sp          -0x10
+ | | 0147: [ PSEUDO ]     -0x8     addq     t34          t35
+ | | 0148: [ PSEUDO ]     -0x10    strq     $sp          -0x10        t34
+ | | 0149: [ PSEUDO ]     -0x18    strq     $sp          -0x18        $flags
+ | | 0150: [ PSEUDO ]     -0x10    lddq     vr15         $sp          -0x18
+ | | 0151: [ PSEUDO ]     -0x18    strq     $sp          -0x18        -0xf66de4d78fc50e6
+ | | 0152: [ PSEUDO ]     -0x20    strq     $sp          -0x20        0x1589c89bd
+ | | 0153: [ PSEUDO ]     -0x28    strq     $sp          -0x28        -0x189c335a
+ | | 0154: [ PSEUDO ]     -0x2a    strw     $sp          -0x2a        0xa52e
+ | | 0155: [ PSEUDO ]     -0x28    lddw     vr15:16      $sp          -0x2a
+ | | 0156: [ PSEUDO ]     -0x20    lddq     t37          $sp          -0x28
+ | | 0157: [ PSEUDO ]     -0x18    lddq     t36          $sp          -0x20
+ | | 0158: [ PSEUDO ]     -0x18    addq     t36          t37
+ | | 0159: [ PSEUDO ]     -0x20    strq     $sp          -0x20        t36
+ | | 0160: [ PSEUDO ]     -0x28    strq     $sp          -0x28        $flags
+ | | 0161: [ PSEUDO ]     -0x20    lddq     vr14         $sp          -0x28
+ | | 0162: [ PSEUDO ]     -0x18    lddq     t39          $sp          -0x20
+ | | 0163: [ PSEUDO ]     -0x18    lddq     t38          t39          0x0
+ | | 0164: [ PSEUDO ]     -0x20    strq     $sp          -0x20        t38
+ | | 0165: [ PSEUDO ]     -0x18    lddq     t41          $sp          -0x20
+ | | 0166: [ PSEUDO ]     -0x10    lddq     t40          $sp          -0x18
+ | | 0167: [ PSEUDO ]     -0x10    addq     t40          t41
+ | | 0168: [ PSEUDO ]     -0x18    strq     $sp          -0x18        t40
+ | | 0169: [ PSEUDO ]     -0x20    strq     $sp          -0x20        $flags
+ | | 0170: [ PSEUDO ]     -0x18    lddq     vr15         $sp          -0x20
+ | | 0171: [ PSEUDO ]     -0x20    strq     $sp          -0x20        -0xb754ebf8
+ | | 0172: [ PSEUDO ]     -0x18    lddq     t43          $sp          -0x20
+ | | 0173: [ PSEUDO ]     -0x10    lddq     t42          $sp          -0x18
+ | | 0174: [ PSEUDO ]     -0x10    notq     t42
+ | | 0175: [ PSEUDO ]     -0x10    notq     t43
+ | | 0176: [ PSEUDO ]     -0x10    andq     t43          t42
+ | | 0177: [ PSEUDO ]     -0x18    strq     $sp          -0x18        t43
+ | | 0178: [ PSEUDO ]     -0x20    strq     $sp          -0x20        $flags
+ | | 0179: [ PSEUDO ]     -0x18    lddq     vr9          $sp          -0x20
+ | | 0180: [ PSEUDO ]     -0x18    movq     t44          $sp
+ | | 0181: [ PSEUDO ]     -0x20    strq     $sp          -0x20        t44
+ | | 0182: [ PSEUDO ]     -0x22    strw     $sp          -0x22        0x2559
+ | | 0183: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        -0x14000566c
+ | | 0184: [ PSEUDO ]     -0x32    strq     $sp          -0x32        0x7adebf81
+ | | 0185: [ PSEUDO ]     -0x32    movq     t45          $sp
+ | | 0186: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        t45
+ | | 0187: [ PSEUDO ]     -0x32    lddq     t47          $sp          -0x3a
+ | | 0188: [ PSEUDO ]     -0x32    lddd     t46:32       t47          0x0
+ | | 0189: [ PSEUDO ]     -0x36    strd     $sp          -0x36        t46:32
+ | | 0190: [ PSEUDO ]     -0x34    lddw     t49:16       $sp          -0x36
+ | | 0191: [ PSEUDO ]     -0x32    lddw     t48:16       $sp          -0x34
+ | | 0192: [ PSEUDO ]     -0x32    addw     t48:16       t49:16
+ | | 0193: [ PSEUDO ]     -0x34    strw     $sp          -0x34        t48:16
+ | | 0194: [ PSEUDO ]     -0x3c    strq     $sp          -0x3c        $flags
+ | | 0195: [ PSEUDO ]     -0x34    lddq     vr14         $sp          -0x3c
+ | | 0196: [ PSEUDO ]     -0x3c    strq     $sp          -0x3c        -0x15febde80
+ | | 0197: [ PSEUDO ]     -0x3c    movq     t50          $sp
+ | | 0198: [ PSEUDO ]     -0x44    strq     $sp          -0x44        t50
+ | | 0199: [ PSEUDO ]     -0x4c    strq     $sp          -0x4c        0xa
+ | | 0200: [ PSEUDO ]     -0x44    lddq     t52          $sp          -0x4c
+ | | 0201: [ PSEUDO ]     -0x3c    lddq     t51          $sp          -0x44
+ | | 0202: [ PSEUDO ]     -0x3c    addq     t51          t52
+ | | 0203: [ PSEUDO ]     -0x44    strq     $sp          -0x44        t51
+ | | 0204: [ PSEUDO ]     -0x4c    strq     $sp          -0x4c        $flags
+ | | 0205: [ PSEUDO ]     -0x44    lddq     vr14         $sp          -0x4c
+ | | 0206: [ PSEUDO ]     -0x3c    lddq     t54          $sp          -0x44
+ | | 0207: [ PSEUDO ]     -0x34    lddq     t53          $sp          -0x3c
+ | | 0208: [ PSEUDO ]     -0x34    strq     t54          0x0          t53
+ | | 0209: [ PSEUDO ]     -0x34    movq     t55          $sp
+ | | 0210: [ PSEUDO ]     -0x3c    strq     $sp          -0x3c        t55
+ | | 0211: [ PSEUDO ]     -0x34    lddq     t57          $sp          -0x3c
+ | | 0212: [ PSEUDO ]     -0x34    lddb     t56:8        t57          0x0
+ | | 0213: [ PSEUDO ]     -0x35    strb     $sp          -0x35        0x0
+ | | 0214: [ PSEUDO ]     -0x36    strb     $sp          -0x36        t56:8
+ | | 0215: [ PSEUDO ]     -0x34    lddw     t59:16       $sp          -0x36
+ | | 0216: [ PSEUDO ]     -0x32    lddw     t58:16       $sp          -0x34
+ | | 0217: [ PSEUDO ]     -0x32    shrw     t59:16       t58:16
+ | | 0218: [ PSEUDO ]     -0x34    strw     $sp          -0x34        t59:16
+ | | 0219: [ PSEUDO ]     -0x3c    strq     $sp          -0x3c        $flags
+ | | 0220: [ PSEUDO ]     -0x34    lddq     vr8          $sp          -0x3c
+ | | 0221: [ PSEUDO ]     -0x32    lddw     vr4:16       $sp          -0x34
+ | | 0222: [ PSEUDO ]     -0x2a    lddq     t61          $sp          -0x32
+ | | 0223: [ PSEUDO ]     -0x22    lddq     t60          $sp          -0x2a
+ | | 0224: [ PSEUDO ]     -0x22    notq     t60
+ | | 0225: [ PSEUDO ]     -0x22    notq     t61
+ | | 0226: [ PSEUDO ]     -0x22    andq     t61          t60
+ | | 0227: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        t61
+ | | 0228: [ PSEUDO ]     -0x32    strq     $sp          -0x32        $flags
+ | | 0229: [ PSEUDO ]     -0x2a    lddq     vr15         $sp          -0x32
+ | | 0230: [ PSEUDO ]     -0x22    lddq     t63          $sp          -0x2a
+ | | 0231: [ PSEUDO ]     -0x22    lddw     t62:16       t63          0x0
+ | | 0232: [ PSEUDO ]     -0x24    strw     $sp          -0x24        t62:16
+ | | 0233: [ PSEUDO ]     -0x22    lddw     t65:16       $sp          -0x24
+ | | 0234: [ PSEUDO ]     -0x20    lddw     t64:16       $sp          -0x22
+ | | 0235: [ PSEUDO ]     -0x20    addw     t64:16       t65:16
+ | | 0236: [ PSEUDO ]     -0x22    strw     $sp          -0x22        t64:16
+ | | 0237: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        $flags
+ | | 0238: [ PSEUDO ]     -0x22    lddq     vr9          $sp          -0x2a
+ | | 0239: [ PSEUDO ]     -0x24    strw     $sp          -0x24        0x50
+ | | 0240: [ PSEUDO ]     -0x28    strd     $sp          -0x28        0x6f9ddafc
+ | | 0241: [ PSEUDO ]     -0x26    lddb     t67:8        $sp          -0x28
+ | | 0242: [ PSEUDO ]     -0x24    lddb     t66:8        $sp          -0x26
+ | | 0243: [ PSEUDO ]     -0x24    shrb     t67:8        t66:8
+ | | 0244: [ PSEUDO ]     -0x25    strb     $sp          -0x25        0x0
+ | | 0245: [ PSEUDO ]     -0x26    strb     $sp          -0x26        t67:8
+ | | 0246: [ PSEUDO ]     -0x2e    strq     $sp          -0x2e        $flags
+ | | 0247: [ PSEUDO ]     -0x26    lddq     vr8          $sp          -0x2e
+ | | 0248: [ PSEUDO ]     -0x28    strw     $sp          -0x28        0xac50
+ | | 0249: [ PSEUDO ]     -0x28    movq     t68          $sp
+ | | 0250: [ PSEUDO ]     -0x30    strq     $sp          -0x30        t68
+ | | 0251: [ PSEUDO ]     -0x38    strq     $sp          -0x38        0x4
+ | | 0252: [ PSEUDO ]     -0x30    lddq     t70          $sp          -0x38
+ | | 0253: [ PSEUDO ]     -0x28    lddq     t69          $sp          -0x30
+ | | 0254: [ PSEUDO ]     -0x28    addq     t69          t70
+ | | 0255: [ PSEUDO ]     -0x30    strq     $sp          -0x30        t69
+ | | 0256: [ PSEUDO ]     -0x38    strq     $sp          -0x38        $flags
+ | | 0257: [ PSEUDO ]     -0x30    lddq     vr9          $sp          -0x38
+ | | 0258: [ PSEUDO ]     -0x28    lddq     t72          $sp          -0x30
+ | | 0259: [ PSEUDO ]     -0x26    lddw     t71:16       $sp          -0x28
+ | | 0260: [ PSEUDO ]     -0x26    strw     t72          0x0          t71:16
+ | | 0261: [ PSEUDO ]     -0x26    movq     t73          $sp
+ | | 0262: [ PSEUDO ]     -0x2e    strq     $sp          -0x2e        t73
+ | | 0263: [ PSEUDO ]     -0x26    lddq     t75          $sp          -0x2e
+ | | 0264: [ PSEUDO ]     -0x26    lddd     t74:32       t75          0x0
+ | | 0265: [ PSEUDO ]     -0x2a    strd     $sp          -0x2a        t74:32
+ | | 0266: [ PSEUDO ]     -0x32    strq     $sp          -0x32        0xa
+ | | 0267: [ PSEUDO ]     -0x32    movq     t76          $sp
+ | | 0268: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        t76
+ | | 0269: [ PSEUDO ]     -0x32    lddq     t78          $sp          -0x3a
+ | | 0270: [ PSEUDO ]     -0x2a    lddq     t77          $sp          -0x32
+ | | 0271: [ PSEUDO ]     -0x2a    addq     t77          t78
+ | | 0272: [ PSEUDO ]     -0x32    strq     $sp          -0x32        t77
+ | | 0273: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        $flags
+ | | 0274: [ PSEUDO ]     -0x32    lddq     vr15         $sp          -0x3a
+ | | 0275: [ PSEUDO ]     -0x2a    lddq     t80          $sp          -0x32
+ | | 0276: [ PSEUDO ]     -0x28    lddw     t79:16       $sp          -0x2a
+ | | 0277: [ PSEUDO ]     -0x28    strw     t80          0x0          t79:16
+ | | 0278: [ PSEUDO ]     -0x2a    strw     $sp          -0x2a        0xb8
+ | | 0279: [ PSEUDO ]     -0x26    lddd     vr14:32      $sp          -0x2a
+ | | 0280: [ PSEUDO ]     -0x24    lddw     vr9:16       $sp          -0x26
+ | | 0281: [ PSEUDO ]     -0x22    lddw     t82:16       $sp          -0x24
+ | | 0282: [ PSEUDO ]     -0x20    lddw     t81:16       $sp          -0x22
+ | | 0283: [ PSEUDO ]     -0x20    notw     t81:16
+ | | 0284: [ PSEUDO ]     -0x20    notw     t82:16
+ | | 0285: [ PSEUDO ]     -0x20    andw     t82:16       t81:16
+ | | 0286: [ PSEUDO ]     -0x22    strw     $sp          -0x22        t82:16
+ | | 0287: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        $flags
+ | | 0288: [ PSEUDO ]     -0x22    lddq     vr14         $sp          -0x2a
+ | | 0289: [ PSEUDO ]     -0x22    movq     t83          vr11
+ | | 0290: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        t83
+ | | 0291: [ PSEUDO ]     -0x32    strq     $sp          -0x32        -0xf66c5fe2a779b01
+ | | 0292: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        -0x14000566e
+ | | 0293: [ PSEUDO ]     -0x3a    movq     t84          vr17
+ | | 0294: [ PSEUDO ]     -0x42    strq     $sp          -0x42        t84
+ | | 0295: [ PSEUDO ]     -0x42    movq     t85          $sp
+ | | 0296: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        t85
+ | | 0297: [ PSEUDO ]     -0x42    lddq     t87          $sp          -0x4a
+ | | 0298: [ PSEUDO ]     -0x42    lddb     t86:8        t87          0x0
+ | | 0299: [ PSEUDO ]     -0x43    strb     $sp          -0x43        0x0
+ | | 0300: [ PSEUDO ]     -0x44    strb     $sp          -0x44        t86:8
+ | | 0301: [ PSEUDO ]     -0x4c    strq     $sp          -0x4c        0x16728012
+ | | 0302: [ PSEUDO ]     -0x4c    movq     t88          $sp
+ | | 0303: [ PSEUDO ]     -0x54    strq     $sp          -0x54        t88
+ | | 0304: [ PSEUDO ]     -0x5c    strq     $sp          -0x5c        0xa
+ | | 0305: [ PSEUDO ]     -0x54    lddq     t90          $sp          -0x5c
+ | | 0306: [ PSEUDO ]     -0x4c    lddq     t89          $sp          -0x54
+ | | 0307: [ PSEUDO ]     -0x4c    addq     t89          t90
+ | | 0308: [ PSEUDO ]     -0x54    strq     $sp          -0x54        t89
+ | | 0309: [ PSEUDO ]     -0x5c    strq     $sp          -0x5c        $flags
+ | | 0310: [ PSEUDO ]     -0x54    lddq     vr15         $sp          -0x5c
+ | | 0311: [ PSEUDO ]     -0x4c    lddq     t92          $sp          -0x54
+ | | 0312: [ PSEUDO ]     -0x44    lddq     t91          $sp          -0x4c
+ | | 0313: [ PSEUDO ]     -0x44    strq     t92          0x0          t91
+ | | 0314: [ PSEUDO ]     -0x46    strw     $sp          -0x46        0xba50
+ | | 0315: [ PSEUDO ]     -0x44    lddb     vr15:8       $sp          -0x46
+ | | 0316: [ PSEUDO ]     -0x42    lddw     vr8:16       $sp          -0x44
+ | | 0317: [ PSEUDO ]     -0x3a    lddq     t94          $sp          -0x42
+ | | 0318: [ PSEUDO ]     -0x32    lddq     t93          $sp          -0x3a
+ | | 0319: [ PSEUDO ]     -0x32    notq     t93
+ | | 0320: [ PSEUDO ]     -0x32    notq     t94
+ | | 0321: [ PSEUDO ]     -0x32    andq     t94          t93
+ | | 0322: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        t94
+ | | 0323: [ PSEUDO ]     -0x42    strq     $sp          -0x42        $flags
+ | | 0324: [ PSEUDO ]     -0x3a    lddq     vr8          $sp          -0x42
+ | | 0325: [ PSEUDO ]     -0x32    lddq     t96          $sp          -0x3a
+ | | 0326: [ PSEUDO ]     -0x32    lddq     t95          t96          0x0
+ | | 0327: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        t95
+ | | 0328: [ PSEUDO ]     -0x32    lddq     t98          $sp          -0x3a
+ | | 0329: [ PSEUDO ]     -0x2a    lddq     t97          $sp          -0x32
+ | | 0330: [ PSEUDO ]     -0x2a    addq     t97          t98
+ | | 0331: [ PSEUDO ]     -0x32    strq     $sp          -0x32        t97
+ | | 0332: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        $flags
+ | | 0333: [ PSEUDO ]     -0x32    lddq     vr9          $sp          -0x3a
+ | | 0334: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        0x168d5200
+ | | 0335: [ PSEUDO ]     -0x3a    movd     t99:32       vr9:32
+ | | 0336: [ PSEUDO ]     -0x3e    strd     $sp          -0x3e        t99:32
+ | | 0337: [ PSEUDO ]     -0x3c    lddb     t101:8       $sp          -0x3e
+ | | 0338: [ PSEUDO ]     -0x3a    lddb     t100:8       $sp          -0x3c
+ | | 0339: [ PSEUDO ]     -0x3a    shrb     t101:8       t100:8
+ | | 0340: [ PSEUDO ]     -0x3b    strb     $sp          -0x3b        0x0
+ | | 0341: [ PSEUDO ]     -0x3c    strb     $sp          -0x3c        t101:8
+ | | 0342: [ PSEUDO ]     -0x44    strq     $sp          -0x44        $flags
+ | | 0343: [ PSEUDO ]     -0x3c    lddq     vr14         $sp          -0x44
+ | | 0344: [ PSEUDO ]     -0x44    strq     $sp          -0x44        0x2a220f78
+ | | 0345: [ PSEUDO ]     -0x44    movq     t102         $sp
+ | | 0346: [ PSEUDO ]     -0x4c    strq     $sp          -0x4c        t102
+ | | 0347: [ PSEUDO ]     -0x54    strq     $sp          -0x54        0xa
+ | | 0348: [ PSEUDO ]     -0x4c    lddq     t104         $sp          -0x54
+ | | 0349: [ PSEUDO ]     -0x44    lddq     t103         $sp          -0x4c
+ | | 0350: [ PSEUDO ]     -0x44    addq     t103         t104
+ | | 0351: [ PSEUDO ]     -0x4c    strq     $sp          -0x4c        t103
+ | | 0352: [ PSEUDO ]     -0x54    strq     $sp          -0x54        $flags
+ | | 0353: [ PSEUDO ]     -0x4c    lddq     vr9          $sp          -0x54
+ | | 0354: [ PSEUDO ]     -0x44    lddq     t106         $sp          -0x4c
+ | | 0355: [ PSEUDO ]     -0x3c    lddq     t105         $sp          -0x44
+ | | 0356: [ PSEUDO ]     -0x3c    strq     t106         0x0          t105
+ | | 0357: [ PSEUDO ]     -0x3a    lddw     vr14:16      $sp          -0x3c
+ | | 0358: [ PSEUDO ]     -0x32    lddq     t108         $sp          -0x3a
+ | | 0359: [ PSEUDO ]     -0x2a    lddq     t107         $sp          -0x32
+ | | 0360: [ PSEUDO ]     -0x2a    addq     t107         t108
+ | | 0361: [ PSEUDO ]     -0x32    strq     $sp          -0x32        t107
+ | | 0362: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        $flags
+ | | 0363: [ PSEUDO ]     -0x32    lddq     vr4          $sp          -0x3a
+ | | 0364: [ PSEUDO ]     -0x2a    lddq     t110         $sp          -0x32
+ | | 0365: [ PSEUDO ]     -0x22    lddq     t109         $sp          -0x2a
+ | | 0366: [ PSEUDO ]     -0x22    notq     t109
+ | | 0367: [ PSEUDO ]     -0x22    notq     t110
+ | | 0368: [ PSEUDO ]     -0x22    andq     t110         t109
+ | | 0369: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        t110
+ | | 0370: [ PSEUDO ]     -0x32    strq     $sp          -0x32        $flags
+ | | 0371: [ PSEUDO ]     -0x2a    lddq     vr4          $sp          -0x32
+ | | 0372: [ PSEUDO ]     -0x22    lddq     t112         $sp          -0x2a
+ | | 0373: [ PSEUDO ]     -0x1a    lddq     t111         $sp          -0x22
+ | | 0374: [ PSEUDO ]     -0x1a    shrq     t112         t111
+ | | 0375: [ PSEUDO ]     -0x22    strq     $sp          -0x22        t112
+ | | 0376: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        $flags
+ | | 0377: [ PSEUDO ]     -0x22    lddq     vr14         $sp          -0x2a
+ | | 0378: [ PSEUDO ]     -0x1a    lddq     t114         $sp          -0x22
+ | | 0379: [ PSEUDO ]     -0x12    lddq     t113         $sp          -0x1a
+ | | 0380: [ PSEUDO ]     -0x12    addq     t113         t114
+ | | 0381: [ PSEUDO ]     -0x1a    strq     $sp          -0x1a        t113
+ | | 0382: [ PSEUDO ]     -0x22    strq     $sp          -0x22        $flags
+ | | 0383: [ PSEUDO ]     -0x1a    lddq     vr9          $sp          -0x22
+ | | 0384: [ PSEUDO ]     -0x12    lddq     t116         $sp          -0x1a
+ | | 0385: [ PSEUDO ]     -0x12    lddq     t115         t116         0x0
+ | | 0386: [ PSEUDO ]     -0x1a    strq     $sp          -0x1a        t115
+ | | 0387: [ PSEUDO ]     -0x12    lddq     vr8          $sp          -0x1a
+ | | 0388: [ PSEUDO ]     -0xa     lddq     vr14         $sp          -0x12
+ | | 0389: [ PSEUDO ]     -0x2     lddq     vr14         $sp          -0xa
+ | | 0390: [ PSEUDO ]     -0x2     movq     t117         vr8
+ | | 0391: [ PSEUDO ]     -0xa     strq     $sp          -0xa         t117
+ | | 0392: [ PSEUDO ]     -0xa     movq     t118         $sp                ;push vsp   此时vsp = $sp-0xa
+ | | 0393: [ PSEUDO ]     -0x12    strq     $sp          -0x12        t118  ;vsp存在栈顶
+ | | 0394: [ PSEUDO ]     -0xa     lddq     t120         $sp          -0x12 ;t120 = vsp,同时退栈8字节(-0x12+8 = 0xa)
+ | | 0395: [ PSEUDO ]     -0xa     lddd     t119:32      t120         0x0   ;64位堆栈地址读32位 , load不涉及到栈,$sp不变 
+ | | 0396: [ PSEUDO ]     -0xe     strd     $sp          -0xe         t119:32;读出来的值放在栈顶
+ | | 0397: [ PSEUDO ]     -0xa     lddd     vr8:32       $sp          -0xe   ;存到vr8:32,退栈   
+ | | 0398: [ PSEUDO ]     -0xa     movq     t121         $sp                        
+ | | 0399: [ PSEUDO ]     -0x12    strq     $sp          -0x12        t121  ;push vsp   此时虚拟栈 $sp-0xa
+ | | 0400: [ PSEUDO ]     -0xa     lddq     t123         $sp          -0x12 ;t123 = vsp
+ | | 0401: [ PSEUDO ]     -0xa     lddd     t122:32      t123         0x0   ;64位堆栈地址读32位
+ | | 0402: [ PSEUDO ]     -0xe     strd     $sp          -0xe         t122:32 ;读出来的值放在栈顶
+ | | 0403: [ PSEUDO ]     -0xa     lddd     t125:32      $sp          -0xe  ;存到t125:32
+ | | 0404: [ PSEUDO ]     -0x6     lddd     t124:32      $sp          -0xa  ;
+ | | 0405: [ PSEUDO ]     -0x6     notd     t124:32                         ;B604E9F3 = encrypted_rva
+ | | 0406: [ PSEUDO ]     -0x6     notd     t125:32                         ;B604E9F3
+ | | 0407: [ PSEUDO ]     -0x6     andd     t125:32      t124:32            ;t125:32 = (~t124:32)&(~t125:32) = 49FB160C "unsigned int result = ~encrypted_rva & ~encrypted_rva;"
+ | | 0408: [ PSEUDO ]     -0xa     strd     $sp          -0xa         t125:32; 第一条LCONSTDW指令
+ | | 0409: [ PSEUDO ]     -0x12    strq     $sp          -0x12        $flags
+ | | 0410: [ PSEUDO ]     -0xa     lddq     vr14         $sp          -0x12 ; eflags
+ | | 0411: [ PSEUDO ]     -0xe     strd     $sp          -0xe         0x9fbb4e4
+ | | 0412: [ PSEUDO ]     -0xa     lddd     t127:32      $sp          -0xe  ; push key(0x9fbb4e4)      --
+ | | 0413: [ PSEUDO ]     -0x6     lddd     t126:32      $sp          -0xa  ; push 49FB160C            -- 其实这里的话在这里异或就是新的指令地址了
+ | | 0414: [ PSEUDO ]     -0x6     notd     t126:32                         ;B6044913
+ | | 0415: [ PSEUDO ]     -0x6     notd     t127:32                         ;F6044B1B
+ | | 0416: [ PSEUDO ]     -0x6     andd     t127:32      t126:32            ; t127:32 = B6044913
+ | | 0417: [ PSEUDO ]     -0xa     strd     $sp          -0xa         t127:32
+ | | 0418: [ PSEUDO ]     -0x12    strq     $sp          -0x12        $flags
+ | | 0419: [ PSEUDO ]     -0xa     lddq     vr15         $sp          -0x12 ; eflags
+ | | 0420: [ PSEUDO ]     -0xe     strd     $sp          -0xe         0xf6044b1b
+ | | 0421: [ PSEUDO ]     -0xe     movd     t128:32      vr8:32             ;B604E9F3
+ | | 0422: [ PSEUDO ]     -0x12    strd     $sp          -0x12        t128:32
+ | | 0423: [ PSEUDO ]     -0xe     lddd     t130:32      $sp          -0x12 ;B604E9F3
+ | | 0424: [ PSEUDO ]     -0xa     lddd     t129:32      $sp          -0xe  ;F6044B1B
+ | | 0425: [ PSEUDO ]     -0xa     notd     t129:32                         ;49FB160C
+ | | 0426: [ PSEUDO ]     -0xa     notd     t130:32                         ;09FBB4E4
+ | | 0427: [ PSEUDO ]     -0xa     andd     t130:32      t129:32            ;09FB1404
+ | | 0428: [ PSEUDO ]     -0xe     strd     $sp          -0xe         t130:32
+ | | 0429: [ PSEUDO ]     -0x16    strq     $sp          -0x16        $flags;eflags
+ | | 0430: [ PSEUDO ]     -0xe     lddq     vr14         $sp          -0x16 ;vr14 = 09FBB4E4
+ | | 0431: [ PSEUDO ]     -0xa     lddd     t132:32      $sp          -0xe  ;09FB1404
+ | | 0432: [ PSEUDO ]     -0x6     lddd     t131:32      $sp          -0xa  ;B6044913
+ | | 0433: [ PSEUDO ]     -0x6     notd     t131:32                         ;49FBB6EC
+ | | 0434: [ PSEUDO ]     -0x6     notd     t132:32                         ;F604EBFB
+ | | 0435: [ PSEUDO ]     -0x6     andd     t132:32      t131:32            ;4000A2E8 -> 最终的新的指令地址 4000A2E8+100000000h = 0x14000A2E8
+ | | 0436: [ PSEUDO ]     -0xa     strd     $sp          -0xa         t132:32
+ | | 0437: [ PSEUDO ]     -0x12    strq     $sp          -0x12        $flags
+ | | 0438: [ PSEUDO ]     -0xa     lddq     vr4          $sp          -0x12
+ | | 0439: [ PSEUDO ]     -0x2     lddq     vr4          $sp          -0xa
+ | | 0440: [ PSEUDO ]     -0x2     movq     t133         vr3
+ | | 0441: [ PSEUDO ]     -0xa     strq     $sp          -0xa         t133
+ | | 0442: [ PSEUDO ]     -0xa     movq     t134         vr3
+ | | 0443: [ PSEUDO ]     -0x12    strq     $sp          -0x12        t134
+ | | 0444: [ PSEUDO ]     -0x12    movq     t135         vr23
+ | | 0445: [ PSEUDO ]     -0x1a    strq     $sp          -0x1a        t135
+ | | 0446: [ PSEUDO ]     -0x1a    movq     t136         vr1
+ | | 0447: [ PSEUDO ]     -0x22    strq     $sp          -0x22        t136
+ | | 0448: [ PSEUDO ]     -0x22    movq     t137         vr6
+ | | 0449: [ PSEUDO ]     -0x2a    strq     $sp          -0x2a        t137
+ | | 0450: [ PSEUDO ]     -0x2a    movq     t138         vr18
+ | | 0451: [ PSEUDO ]     -0x32    strq     $sp          -0x32        t138
+ | | 0452: [ PSEUDO ]     -0x32    movq     t139         vr12
+ | | 0453: [ PSEUDO ]     -0x3a    strq     $sp          -0x3a        t139
+ | | 0454: [ PSEUDO ]     -0x3a    movq     t140         vr20
+ | | 0455: [ PSEUDO ]     -0x42    strq     $sp          -0x42        t140
+ | | 0456: [ PSEUDO ]     -0x42    movq     t141         vr7
+ | | 0457: [ PSEUDO ]     -0x4a    strq     $sp          -0x4a        t141
+ | | 0458: [ PSEUDO ]     -0x4a    movq     t142         vr21
+ | | 0459: [ PSEUDO ]     -0x52    strq     $sp          -0x52        t142
+ | | 0460: [ PSEUDO ]     -0x52    movq     t143         vr10
+ | | 0461: [ PSEUDO ]     -0x5a    strq     $sp          -0x5a        t143
+ | | 0462: [ PSEUDO ]     -0x5a    movq     t144         vr2
+ | | 0463: [ PSEUDO ]     -0x62    strq     $sp          -0x62        t144
+ | | 0464: [ PSEUDO ]     -0x62    movq     t145         vr5
+ | | 0465: [ PSEUDO ]     -0x6a    strq     $sp          -0x6a        t145
+ | | 0466: [ PSEUDO ]     -0x6a    movq     t146         vr13
+ | | 0467: [ PSEUDO ]     -0x72    strq     $sp          -0x72        t146
+ | | 0468: [ PSEUDO ]     -0x72    movq     t147         vr17
+ | | 0469: [ PSEUDO ]     -0x7a    strq     $sp          -0x7a        t147
+ | | 0470: [ PSEUDO ]     -0x7a    movq     t148         vr3
+ | | 0471: [ PSEUDO ]     -0x82    strq     $sp          -0x82        t148
+ | | 0472: [ PSEUDO ]     -0x82    movq     t149         vr16
+ | | 0473: [ PSEUDO ]     -0x8a    strq     $sp          -0x8a        t149
+ | | 0474: [ PSEUDO ]     -0x8a    movq     t150         vr11
+ | | 0475: [ PSEUDO ]     -0x92    strq     $sp          -0x92        t150
+ | | 0476: [ PSEUDO ]     -0x92    movq     t151         vr12
+ | | 0477: [ PSEUDO ]     -0x9a    strq     $sp          -0x9a        t151
+ | | 0478: [ PSEUDO ]     -0xa2    strq     $sp          -0xa2        -0x4076868d
+ | | 0479: [ PSEUDO ]     -0xa2    movq     t152         vr22
+ | | 0480: [ PSEUDO ]     -0xaa    strq     $sp          -0xaa        t152
+ | | 0481: [ PSEUDO ]     -0xa2    lddq     t154         $sp          -0xaa
+ | | 0482: [ PSEUDO ]     -0x9a    lddq     t153         $sp          -0xa2
+ | | 0483: [ PSEUDO ]     -0x9a    addq     t153         t154
+ | | 0484: [ PSEUDO ]     -0xa2    strq     $sp          -0xa2        t153
+ | | 0485: [ PSEUDO ]     -0xaa    strq     $sp          -0xaa        $flags
+ | | 0486: [ PSEUDO ]     -0xa2    lddq     vr0          $sp          -0xaa
+ | | 0487: [ PSEUDO ]     -0xa2    movq     t155         vr19
+ | | 0488: [ PSEUDO ]     -0xaa    strq     $sp          -0xaa        t155
+ | | 0489: [ PSEUDO ]     -0xaa    movq     t156         vr4
+ | | 0490: [ PSEUDO ]     -0xb2    strq     $sp          -0xb2        t156      ; 这是用来计算新的指令地址的数
